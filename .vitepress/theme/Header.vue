@@ -1,28 +1,14 @@
 <template>
-<div class="header-container">
-<a href="/">
-<pre>
-                                            ██
-                                           ░██
-                                           ░██
-                    ██    ██  █████ ██ ████░███████   █████   ██████   █████
-                   ░██   ░██ ██░░░██░███░░ ░██░░░░██░██  ░██ ██░░░░   ██░░░██
- ░███████ ░███████ ░██   ░██░███████░██    ░██   ░██░██  ░██ ░██████ ░███████
- ░░░ ░░░  ░░ ░░░░   ░██ ░██ ░██░░░░ ░██    ░██   ░██░██  ░██  ░░░░░██░██░░░░ 
-                    ░░████  ░░██████░██    ░███████  ░█████   ██████ ░░██████
-                     ░░░     ░░░░ ░ ░░░    ░░░░ ░░    ░░░░   ░░░░░░   ░░░░░░
-</pre></a>
-</div>
+    <header class="header-container">
+        <a href="/">
+            <b>--verbose</b>
+        </a>
+    </header>
 </template>
 
 <style scoped>
-pre {
-    background-color: transparent;
-    border: none;
-    color: var(--color-blue);
-}
-
-div.header-container {
-    display: flex;
+a {
+    font-size: 24px;
+    border-bottom: unset !important;
 }
 </style>

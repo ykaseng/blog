@@ -13,6 +13,7 @@ export interface Post {
   href: string
   date: {
     time: number
+    unix: string
     string: string
   }
   excerpt: string | undefined
@@ -79,9 +80,9 @@ function formatDate(date: string | Date): Post['date'] {
   if (!(date instanceof Date)) {
     date = new Date(date)
   }
-  date.setUTCHours(12)
   return {
     time: +date,
+    unix: Math.floor(date.getTime()/1000).toString().padStart(10, '0'),
     string: date.toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'long',

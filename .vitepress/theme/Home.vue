@@ -6,11 +6,17 @@ const { frontmatter } = useData()
 </script>
 
 <template>
-    <h1>{{ frontmatter.title }}</h1>
     <p>{{ frontmatter.subtext }}</p>
     <ul>
         <li v-for="{ title, href, date } of posts">
-            <h2><a :href="href">{{ title }}</a></h2>
+            <a :href="href">{{ date.unix }} {{ title }}</a>
         </li>
     </ul>
 </template>
+
+<style scoped>
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+</style>
