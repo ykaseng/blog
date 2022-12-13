@@ -9,7 +9,7 @@
   "license": "GPL",
   "scripts": {
     "dev": "vitepress",
-    "build": "vitepress build",
+    "build": "vitepress build && tsx ./.vitepress/genFeed",
     "preview": "vitepress preview"
   },
   "devDependencies": {
@@ -19,8 +19,5 @@
     "tsx": "^3.12.1",
     "vitepress": "^1.0.0-alpha.31",
     "vue": "^3.2.45"
-  },
-  "dependencies": {
-    "@types/node": "^18.11.13"
   }
 }
