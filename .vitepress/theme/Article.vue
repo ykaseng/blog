@@ -57,6 +57,7 @@ const prevPost = computed(() => posts[findCurrentIndex() + 1])
 :deep h1:hover a,
 :deep h2:hover a {
     display: inline;
+    border-bottom: none;
 }
 
 :deep span.lang {
