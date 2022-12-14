@@ -9,11 +9,14 @@
   "license": "GPL",
   "scripts": {
     "dev": "vitepress",
-    "build": "vitepress build",
+    "build": "vitepress build && tsx ./.vitepress/genFeed",
     "preview": "vitepress preview"
   },
   "devDependencies": {
+    "@types/node": "^18.11.14",
+    "feed": "^4.2.2",
     "gray-matter": "^4.0.3",
+    "tsx": "^3.12.1",
     "vitepress": "^1.0.0-alpha.31",
     "vue": "^3.2.45"
   }
