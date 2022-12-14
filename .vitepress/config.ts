@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/blog/',
   title: 'verbose',
   titleTemplate: false,
   description: 'an attempt to log projects i\'ve worked on, my thoughts on contemporary issues and culture.',
