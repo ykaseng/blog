@@ -6,7 +6,7 @@
                 <li><a href="https://verbose.ykaseng.com">log</a></li>
                 <li><a href="https://github.com/ykaseng">git</a></li>
                 <li><a href="https://verbose.ykaseng.com/feed.rss">rss</a></li>
-                <li><a href="https://github.com/ykaseng/blog/blob/main/LICENSE">cc by-sa 4.0</a></li>
+                <li><a href="https://github.com/ykaseng/blog/blob/master/LICENSE">cc by-sa 4.0</a></li>
             </ul>
         </nav>
     </footer>
