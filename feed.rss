@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>The Vue Point</title>
+        <title>--verbose</title>
         <link>https://verbose.ykaseng.com</link>
-        <description>The official blog for the Vue.js project</description>
-        <lastBuildDate>Wed, 14 Dec 2022 08:43:42 GMT</lastBuildDate>
+        <description>An attempt to log projects I've worked on and my thoughts on contemporary issues &amp; culture.</description>
+        <lastBuildDate>Thu, 15 Dec 2022 09:32:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -41,7 +41,7 @@
 <span class="line"><span style="color:#A6ACCD;">        </span><span style="color:#89DDFF;">default</span><span style="color:#89DDFF;">:</span></span>
 <span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#89DDFF;">}</span></span>
 <span class="line"><span style="color:#89DDFF;">}</span></span>
-<span class="line"></span></code></pre></div><p>Note that we include a <code>default</code> clause. We must always guard against the fact that no one may be listening to our heartbeat. The results emitted from the goroutine are critical, but the pulses are not.</p><p>Until next time!</p></div>]]></content:encoded>
+<span class="line"></span></code></pre></div><p>Note that we include a <code>default</code> clause. We must always guard against the fact that no one may be listening to our heartbeat. The results emitted from the goroutine are critical, but the pulses are not.</p><p>This blog is also available as an RSS <a href="https://verbose.ykaseng.com/feed.rss" target="_blank" rel="noreferrer">feed</a> so that you can enjoy the excitement of nothing ever happening from the comfort of your favourite RSS aggregator! Will he blog? Will he skip another two years before writing another post? Find out next week!</p></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
