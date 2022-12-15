@@ -8,8 +8,8 @@ const url = `https://verbose.ykaseng.com`
 const dirname = path.dirname(fileURLToPath(import.meta.url))
 
 const feed = new Feed({
-  title: 'The Vue Point',
-  description: 'The official blog for the Vue.js project',
+  title: '--verbose',
+  description: 'An attempt to log projects I\'ve worked on and my thoughts on contemporary issues & culture.',
   id: url,
   link: url,
   language: 'en',
