@@ -23,4 +23,4 @@ sendPulse := func() {
 
 Note that we include a `default` clause. We must always guard against the fact that no one may be listening to our heartbeat. The results emitted from the goroutine are critical, but the pulses are not.
 
-Until next time!
+This blog is also available as an RSS [feed](https://verbose.ykaseng.com/feed.rss) so that you can enjoy the excitement of nothing ever happening from the comfort of your favourite RSS aggregator! Will he blog? Will he skip another two years before writing another post? Find out next week!
